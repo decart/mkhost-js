@@ -1,0 +1,6 @@
+{
+  "baseDir": "/var/www",
+  "index": "index.php index.html",
+  "fastcgiPass": "unix:/var/run/php/php7.4-fpm.sock",
+  "nginxVHosts": "/etc/nginx/sites-enabled"
+}
