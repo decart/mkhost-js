@@ -2,5 +2,7 @@
   "baseDir": "/var/www",
   "index": "index.php index.html",
   "fastcgiPass": "unix:/var/run/php/php7.4-fpm.sock",
-  "nginxVHosts": "/etc/nginx/sites-enabled"
+  "nginxVHosts": "/etc/nginx/sites-enabled",
+  "sslCert": "/var/ssl/cert.pem",
+  "sslCertKey": "/var/ssl/cert-key.pem"
 }
